@@ -1,0 +1,164 @@
+{
+    "mobilenet_v2": {
+        "loss": 0.0,
+        "accuracy": 0.008966493629070316,
+        "macro_precision": 0.4,
+        "macro_recall": 0.006927475420626106,
+        "macro_f1": 0.01354746382572746,
+        "weighted_precision": 1.0,
+        "weighted_recall": 0.008966493629070316,
+        "weighted_f1": 0.01772670485204884,
+        "per_class": {
+            "Basophil": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "support": 0
+            },
+            "Eosinophil": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "support": 0
+            },
+            "Lymphocyte": {
+                "precision": 1.0,
+                "recall": 0.02702702702702703,
+                "f1_score": 0.05263157894736842,
+                "support": 148
+            },
+            "Monocyte": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "support": 0
+            },
+            "Neutrophil": {
+                "precision": 1.0,
+                "recall": 0.0076103500761035,
+                "f1_score": 0.015105740181268883,
+                "support": 1971
+            }
+        },
+        "confusion_matrix": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                144,
+                0,
+                4,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1945,
+                7,
+                0,
+                4,
+                15
+            ]
+        ],
+        "inference_time_ms": 43.23332486370927,
+        "total_samples": 2119
+    },
+    "baseline_cnn": {
+        "loss": 0.0,
+        "accuracy": 0.08919301557338367,
+        "macro_precision": 0.2005350454788657,
+        "macro_recall": 0.04292580251484361,
+        "macro_f1": 0.04553659156973653,
+        "weighted_precision": 0.8916768991905133,
+        "weighted_recall": 0.08919301557338367,
+        "weighted_f1": 0.152014912630915,
+        "per_class": {
+            "Basophil": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "support": 0
+            },
+            "Eosinophil": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "support": 0
+            },
+            "Lymphocyte": {
+                "precision": 0.047619047619047616,
+                "recall": 0.12837837837837837,
+                "f1_score": 0.06946983546617916,
+                "support": 148
+            },
+            "Monocyte": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "support": 0
+            },
+            "Neutrophil": {
+                "precision": 0.9550561797752809,
+                "recall": 0.08625063419583967,
+                "f1_score": 0.15821312238250348,
+                "support": 1971
+            }
+        },
+        "confusion_matrix": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                111,
+                6,
+                19,
+                4,
+                8
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1368,
+                42,
+                380,
+                11,
+                170
+            ]
+        ],
+        "inference_time_ms": 27.472792171318048,
+        "total_samples": 2119
+    }
+}

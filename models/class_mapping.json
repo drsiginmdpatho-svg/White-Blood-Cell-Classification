@@ -1,0 +1,24 @@
+{
+    "classes": ["Basophil", "Eosinophil", "Lymphocyte", "Monocyte", "Neutrophil"],
+    "class_to_idx": {
+        "Basophil": 0,
+        "Eosinophil": 1,
+        "Lymphocyte": 2,
+        "Monocyte": 3,
+        "Neutrophil": 4
+    },
+    "idx_to_class": {
+        "0": "Basophil",
+        "1": "Eosinophil",
+        "2": "Lymphocyte",
+        "3": "Monocyte",
+        "4": "Neutrophil"
+    },
+    "descriptions": {
+        "Basophil": "Characterized by coarse, intensely dark purple-black granules that cover the cytoplasm and typically obscure the segmented nucleus. Plays a major role in allergic responses and histamine release.",
+        "Eosinophil": "Distinctive bilobed nucleus with bright, refractive orange-pink/red cytoplasmic granules. Involved in allergic inflammation and defense against parasitic infections.",
+        "Lymphocyte": "High nuclear-to-cytoplasmic (N:C) ratio with a compact, spherical dark purple nucleus and a narrow rim of light blue cytoplasm. Core mediator of adaptive immunity (T-cells, B-cells, NK-cells).",
+        "Monocyte": "Largest mononuclear leukocyte with a distinctive folded or kidney-shaped indented nucleus and abundant grayish-blue cytoplasm, frequently containing small vacuoles. Precursor to macrophages.",
+        "Neutrophil": "Polymorphonuclear leukocyte with a characteristic 3 to 5 lobed nucleus interconnected by fine chromatin filaments, surrounded by neutral pink-lilac cytoplasm with fine granules. Primary bacterial defense."
+    }
+}

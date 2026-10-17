@@ -1,0 +1,56 @@
+# ============================================================
+# WBC Classification Capstone Project — .gitignore
+# ============================================================
+
+# --- Raw Dataset (too large for GitHub, ~500MB) ---
+WBC archive/
+WBC archive.zip
+*.zip
+
+# --- Model Checkpoints (excluded; train locally or download) ---
+models/*.pt
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Virtual environments ---
+venv/
+env/
+.env/
+.venv/
+
+# --- Environment variable files ---
+.env
+*.env
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE/Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+*.bak
+
+# --- Distribution / packaging ---
+dist/
+build/
+*.egg-info/
+
+# --- Temp Office lock files ---
+~$*
