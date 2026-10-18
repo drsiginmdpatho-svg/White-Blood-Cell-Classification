@@ -7,8 +7,8 @@ WBC archive/
 WBC archive.zip
 *.zip
 
-# --- Model Checkpoints (excluded; train locally or download) ---
-models/*.pt
+# --- Model Checkpoints (included — 16.5MB + 27.7MB, within GitHub 100MB limit) ---
+# models/*.pt
 
 # --- Python cache ---
 __pycache__/
